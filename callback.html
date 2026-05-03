@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TikTunes - Connecting...</title>
+  <script>
+    // Redirige vers l'app avec les paramètres TikTok
+    const params = window.location.search;
+    window.location.href = 'tiktunes://auth/callback' + params;
+  </script>
+</head>
+<body>
+  <p>Connecting to TikTunes...</p>
+</body>
+</html>
